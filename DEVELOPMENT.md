@@ -27,6 +27,7 @@ npm start
 - /assets --> we also need general images of acm events to put up
 - /constants --> needs updated to show the photos and linkedins too
 - /constants --> needs to be updated to show the events
+- /components/navbar --> change social links
 
 - src
 

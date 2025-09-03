@@ -44,7 +44,7 @@ const Footer = () => {
                 />
               </div>
               <div>
-                <h3 style={footerStyles.title}>ACM @ UB</h3>
+                <h3 style={footerStyles.title}>ACM @ Allegheny</h3>
                 <p style={footerStyles.subtitle}>
                   Association for Computing Machinery
                 </p>
@@ -61,15 +61,11 @@ const Footer = () => {
             <div>
               <div style={footerStyles.contactItem}>
                 <MapPin style={footerStyles.icon} />
-                <span>Davis 101, University at Buffalo, NY</span>
+                <span>520 N Main St, Meadville, PA 16335</span>
               </div>
               <div style={footerStyles.contactItem}>
                 <Mail style={footerStyles.icon} />
-                <span>ubacm@gmail.com</span>
-              </div>
-              <div style={footerStyles.contactItem}>
-                <Calendar style={footerStyles.icon} />
-                <span>Events on Thursdays 6:00 PM</span>
+                <span>our-future-email@gmail.com</span>
               </div>
             </div>
           </div>
@@ -96,7 +92,7 @@ const Footer = () => {
           <div style={footerStyles.bottomRow}>
             <div style={footerStyles.copyright}>
               <p>
-                © {currentYear} ACM at University at Buffalo. All rights
+                © {currentYear} ACM at Allegheny College. All rights
                 reserved.
               </p>
               <p style={{ marginTop: "0.25rem" }}>

@@ -39,7 +39,7 @@ const Hero = () => {
                     />
                   </div>
                   <div style={heroStyles.titleText}>
-                    Association for Computing Machinery @ UB
+                    Association for Computing Machinery @ Allegheny
                   </div>
                   <div style={heroStyles.subtitleText}>
                     Computer Science by Students for Students
@@ -88,7 +88,7 @@ const Hero = () => {
                   />
                 </div>
                 <div style={heroStyles.mobileTitleText}>
-                  Association for Computing Machinery @ UB
+                  Association for Computing Machinery @ Allegheny
                 </div>
                 <div style={heroStyles.mobileSubtitleText}>
                   Computer Science by Students for Students
