@@ -45,13 +45,13 @@ if ! [ -d "build" ]; then
 fi
 
 cd build
-echo "ubacm.org" > CNAME
+echo "alleghenyacm.org" > CNAME
 cp index.html 404.html
 git init . -b gh-pages
 git remote add origin $REMOTE
 git fetch origin $DEPLOY_BRANCH 2>/dev/null || true
 git add .
-git commit -m "Deployment to ubacm.org - $(date)"
+git commit -m "Deployment to alleghenyacm.org - $(date)"
 
 if git push --force origin gh-pages; then
     echo "Deployment successful!"

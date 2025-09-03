@@ -1,16 +1,13 @@
 import profilePic from "../../assets/acmlogo.png";
-import acm1 from "../../assets/hero/acm 1.jpg";
-import acm2 from "../../assets/hero/acm 2.jpeg";
-import acm3 from "../../assets/hero/acm 3.jpg";
-import acm6 from "../../assets/hero/acm 6.jpg";
-import acm7 from "../../assets/hero/acm 7.jpeg";
+import acm1 from "../../assets/hero/home-page-image-slideshow.jpg";
+
 
 import AnimatedContent from "../AnimatedContent";
 import AnimatedList from "./AnimatedItem";
 import { heroStyles, mediaStyles } from "./heroStyles";
 import "./AnimatedList.css";
 
-const images = [acm1, acm2, acm3, acm6, acm7];
+const images = [acm1];
 
 const Hero = () => {
   return (

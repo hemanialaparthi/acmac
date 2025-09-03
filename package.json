@@ -1,8 +1,7 @@
 {
-  "name": "ubacm.org",
+  "name": "alleghenyacm.org",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Angus Lam <angushtlam@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "yarn build-site && yarn build-webpack",
