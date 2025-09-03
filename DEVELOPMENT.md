@@ -1,8 +1,6 @@
 # Development Doc for our ACM website
 
-## step 1 local deve setup
-
-To get your development environment running locally:
+## local dev setup
 
 ```bash
 cd client
@@ -10,15 +8,9 @@ npm i
 npm start
 ```
 
-## TASKS
+## tasks
 
-- change stuff to say allegheny
-- change colors
-- change photos
-- change links
-- add new pages
-
-## What needs changed
+here are some of the things that still need to be done to finish up the website. most of these involve needing images, the color scheme, the logo, and links for socials. we can also customize more on top of this.
 
 - the readme
 - /public --> add the new acm logo
@@ -28,7 +20,4 @@ npm start
 - /constants --> needs updated to show the photos and linkedins too
 - /constants --> needs to be updated to show the events
 - /components/navbar --> change social links
-
-- src
-
-we also should credit university of buffalo at the end of this
+- we also should credit university of buffalo at the end of this
